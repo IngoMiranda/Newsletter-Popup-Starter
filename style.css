@@ -2,14 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
 }
-body{
+
+/* body{
 
     height: 100vh;
-}
+} */
+
+/* Conteiner*/
+
 .container{
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
     background: url(./Assets/Background.png) no-repeat center /cover ;
+}
+
+/*CARD*/
+
+.card{
+
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    margin: 0 auto;
+    gap: 16px;
+    background: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding: 32px;
+    border-radius: 3% 3% 0 0;
+    color: white;
+    font-size: 1.1rem;
+    
+    
+
+    background:#2355F2 url(./Assets/Pattern.png) no-repeat center /cover;
+}
+
+h1{
+    padding: 32px;
+    text-align: center;
+    line-height: 2rem;
 }
