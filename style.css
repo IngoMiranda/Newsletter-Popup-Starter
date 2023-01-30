@@ -62,10 +62,69 @@ h1{
 /*SUB-SECTION*/
 
 .sub-section{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem ;
+    
+}
+
+.sub-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input{
+
+    width: 258px;
+    height: 43px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background: rgba(245, 247, 250, 1);
+
+}
+
+::placeholder{
+
+    padding: 10px;
+    color: rgb(203, 203, 203);
+    
+    
+}
+
+button{
+    width: 114px;
+    height: 43px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background: #2355F2;
+}
+
+span{
+    display: block;
+    width: 384px;
+    padding-left:5px ;
+    margin-bottom: 1rem;
+    color: rgb(162, 161, 161);
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.user{
+    display: flex;
+    gap: 0.6rem;
+    
+}
+
+.footer{
+    text-align: center;
+    margin-top: 0.5rem;
+    
+    
 }
